@@ -58,8 +58,8 @@ ndk::ScopedAStatus Fingerprint::getSensorProps(std::vector<SensorProps>* out) {
     SensorLocation sensorLocation;
 
     sensorLocation.sensorLocationX = 540;
-    sensorLocation.sensorLocationY = 2156;
-    sensorLocation.sensorRadius = 95;
+    sensorLocation.sensorLocationY = 2175;
+    sensorLocation.sensorRadius = 96;
 
     LOG(INFO) << "sensor type:" << ::android::internal::ToString(mSensorType)
               << " location:" << sensorLocation.toString();
